@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: dimgray;
+}
+
+section {
+    padding: 0 8rem;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./assets/images/first-section\ image.jpg);
+    color: white;
+}
+
+.black-cover {
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(transparent, black);
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    padding: 1rem 8rem;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    z-index: 2;
+}
+
+.logo img {
+    width: 150px;
+    color: #e50914;
+}
+
+.sign-in a {
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: all linear .5s ease-in-out;
+}
+
+.sign a:hover {
+    background-color: #ac0b13;
+}
+
+.hero {
+    margin-top: 8rem;
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+.hero-text>p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.get-started form {
+    display: flex;
+    gap: 5px;
+}
+
+.get-started form input {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    border: 1px solid #eee;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.get-started form input:focus {
+    outline: none;
+    background-color: rgba(36, 36, 48, 0.705);
+}
+
+
+.get-started form input::placeholder {
+    color: white;
+}
+
+.get-started form a {
+    background-color: #e50914;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* SECOND, THIRD, FOURTH, FIFTH SECTION */
+.section {
+    margin-top: 5px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.info h1 {
+    font-size: 3rem;
+}
+
+.info p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.tv img {
+    width: 500px;
+}
+
+/* SIXTH SECTION */
+.faq {
+    margin-top: 5px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: white;
+    background-color: black;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.questions {
+    margin-top: 2rem;
+}
+
+.quest-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.quest {
+    background-color: #2d2d2d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.quest p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.quest span {
+    font-size: 3rem;
+}
+
+.answer {
+    background-color: #2d2d2d;
+    padding: 1rem 2rem;
+    line-height: 1.5rem;
+    display: none;
+}
+
+.started2 {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* LAST SECTION */
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: white;
+    background-color: black;
+}
+
+.footer ul {
+    list-style: none;
+}
