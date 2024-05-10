@@ -181,6 +181,7 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
+    cursor: pointer;
 }
 
 .quest p {
@@ -198,10 +199,13 @@ section {
     font-size: 1.2rem;
     line-height: 1.8rem;
     display: none;
+    transform: translateY(-20%);
+    transition: all .5s;
 }
 
 .show {
     display: block;
+    transform: translateY(0);
 }
 
 .started2 {
