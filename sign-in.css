@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: dimgray;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./assets/images/first-section\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.black-cover {
+    width: 100%;
+    min-height: 100vh;
+    background-image: radial-gradient(transparent, black);
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    padding: 1rem 8rem;
+}
+
+header img {
+    width: 150px;
+}
+
+.sign-in-container {
+    width: 25rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1.5rem 3rem;
+    margin: 1rem auto;
+    border-radius: 8px;
+}
+
+.sign-in-container img {
+    display: none;
+    width: 150px;
+}
+
+.sign-in-form {
+    margin: 1.5rem 0;
+}
+
+.sign-in-form input[type=text],
+.sign-in-form input[type=password] {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.411);
+    border: 0.5px solid #cecdcd;
+    color: white;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.sign-in-form input:focus {
+    outline: none;
+    background-color: rgba(36, 36, 48, 0.705);
+}
+
+.sign-in-btn a {
+    display: block;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.or {
+    margin: 1rem 0;
+    text-align: center;
+    color: #bbb1b1;
+}
+
+.signIn-opt-btn a {
+    display: block;
+    margin-bottom: .5rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.signIn-opt-btn a:first-child {
+    font-weight: 600;
+    background-color: dimgray;
+}
+
+.remember-me {
+    margin-bottom: 10px;
+}
+
+#remember-box {
+    margin-right: 5px;
+}
+
+.others p {
+    font-size: 12px;
+    color: #bbb1b1;
+}
+
+.others p:nth-child(2) {
+    margin-bottom: 12px;
+}
+
+footer {
+    align-items: center;
+    margin-top: 5px;
+    padding: 4rem 8rem;
+    color: white;
+    background-color: black;
+}
+
+footer .link-container {
+    display: flex;
+    gap: 8rem;
+}
+
+footer a {
+    color: white;
+}
+
+.foot-title {
+    margin-bottom: 1rem;
+}
+
+.foot-title a {
+    text-decoration: none;
+}
+
+.foot-links p {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+
+    header img {
+        display: none;
+    }
+
+    .black-cover {
+        padding: 0;
+    }
+
+    .sign-in-container {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        margin: 0;
+        padding: 4rem 2rem;
+    }
+
+    .sign-in-container img {
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .sign-in-container h2 {
+        font-size: 40px;
+    }
+
+    .sign-in-form input[type=text],
+    .sign-in-form input[type=password] {
+        padding: 1.5rem;
+    }
+
+    .sign-in-btn a,
+    .signIn-opt-btn a {
+        padding: 12px 0;
+    }
+
+    .remember-me,
+    .others p:nth-child(2) {
+        margin-bottom: 1rem;
+    }
+
+    .others p {
+        font-size: 16px;
+        line-height: 1.6rem;
+    }
+
+    footer {
+        padding: 1rem 2rem;
+    }
+
+    footer .link-container {
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+}
