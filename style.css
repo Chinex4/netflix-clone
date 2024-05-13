@@ -92,7 +92,7 @@ section {
     border-radius: 5px;
 }
 
-.email-label{
+.email-label {
     font-size: 13px;
     position: absolute;
     left: 20px;
@@ -105,8 +105,9 @@ section {
     outline: none;
     background-color: rgba(36, 36, 48, 0.705);
 }
-.get-started form input:focus + .email-label,
-.get-started form input.active + .email-label{
+
+.get-started form input:focus+.email-label,
+.get-started form input.active+.email-label {
     transform: translateY(-16px);
 }
 
@@ -125,9 +126,10 @@ section {
 }
 
 /* SECOND, THIRD, FOURTH, FIFTH SECTION */
-.fourth .info{
+.fourth .info {
     width: 50%;
 }
+
 .section {
     margin-top: 5px;
     padding-top: 4rem;
@@ -148,13 +150,9 @@ section {
     font-size: 1.5rem;
 }
 
-.img-container img{
-    width: 30rem;
-}
 
 /* TV IMAGE */
-.video-container{
-    /* z-index: 1; */
+.video-container {
     overflow: hidden;
     /* width: 100%; */
     height: 100%;
@@ -164,6 +162,36 @@ section {
     /* top: 4px;
     left: 4px; */
     transform: translate(15%, -114%);
+}
+
+.stranger-things {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stranger-things>img {
+    width: 30rem;
+}
+
+.download-box {
+    background-color: black;
+    border: 2px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+    top: -5rem;
+    border-radius: 1rem;
+}
+
+.download-box img:first-child {
+    height: 70px;
+}
+.downloading{
+    color: blue;
 }
 
 

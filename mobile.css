@@ -39,11 +39,15 @@
 
     .get-started form input {
         width: 300px;
-        padding: 15px 12px;
+        padding: 20px 12px;
     }
 
     .get-started form a {
         display: inline-block;
+    }
+
+    .email-label {
+        top: 20px;
     }
 
     /* SECTIONS */
@@ -78,6 +82,14 @@
         width: 100%;
     }
 
+    .download-box img:first-child {
+        height: 70px;
+        width: 50px;
+    }
+    .download-box img:last-child{
+        width: 40px;
+    }
+
     .third,
     .fifth {
         flex-direction: column-reverse;
@@ -93,7 +105,7 @@
     }
 
     .quest p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .started2 {
